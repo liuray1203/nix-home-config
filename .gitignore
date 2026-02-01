@@ -1,0 +1,9 @@
+# Nix build results
+result
+result-*
+
+# Nix user stuff
+.nix-profile
+.nix-defexpr
+.nix-channels
+
