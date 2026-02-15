@@ -28,7 +28,6 @@ fd
 # 開發 / 腳本
 python3
 python3Packages.pip
-bash
 zsh
 shellcheck
 shfmt
@@ -37,10 +36,9 @@ shfmt
 # Node / 編輯器
 nodejs
 neovim
-
+vim
 
 # ThinkPad CLI 工具（不啟動 systemd 服務）
-tlp # 使用前請用 pacman 安裝並啟用服務
 brightnessctl
 ];
 
