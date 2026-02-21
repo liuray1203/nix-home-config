@@ -28,7 +28,6 @@ fd
 # 開發 / 腳本
 python3
 python3Packages.pip
-zsh
 shellcheck
 shfmt
 
@@ -56,6 +55,9 @@ syntaxHighlighting.enable = true;
 
 programs.starship = {
 enable = true;
+settings = {
+    add_newline = false;
+  };
 };
 
 
