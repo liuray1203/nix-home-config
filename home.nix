@@ -23,6 +23,8 @@ btop
 fastfetch
 ripgrep
 fd
+#nerd-fonts字體
+nerd-fonts.jetbrains-mono
 
 
 # 開發 / 腳本
@@ -59,11 +61,6 @@ settings = {
     add_newline = false;
   };
 };
-
-#nerd-fonts字體
-home.packages = with pkgs; [
-  nerd-fonts.jetbrains-mono
-];
 
 
 # ----------------------------
