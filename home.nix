@@ -24,8 +24,7 @@ fastfetch
 ripgrep
 fd
 #nerd-fonts字體
-nerd-fonts.jetbrains-mono
-
+(nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
 
 # 開發 / 腳本
 python3
