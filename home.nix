@@ -60,6 +60,11 @@ settings = {
   };
 };
 
+#nerd-fonts字體
+home.packages = with pkgs; [
+  nerd-fonts.jetbrains-mono
+];
+
 
 # ----------------------------
 # Git 設定
