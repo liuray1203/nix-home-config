@@ -58,7 +58,6 @@ programs.starship = {
 enable = true;
 settings = {
     add_newline = false;
-    settings = {
     format = ''
 [░▒▓](#a3aed2)\
 [  ](bg:#a3aed2 fg:#090c0c)\
