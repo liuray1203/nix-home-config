@@ -151,4 +151,4 @@ userEmail = "you@example.com"; # 之後再改
 # Home Manager 本體
 # ----------------------------
 programs.home-manager.enable = true;
-}
+};
