@@ -23,6 +23,7 @@ btop
 fastfetch
 ripgrep
 fd
+fzf
 #nerd-fonts字體
 (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
 
