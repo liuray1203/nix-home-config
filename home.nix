@@ -43,6 +43,10 @@ vim
 brightnessctl
 ];
 
+home.sessionPath = [
+  "$HOME/.local/bin"
+];
+
 
 # ----------------------------
 # Shell 設定
@@ -53,6 +57,7 @@ enableCompletion = true;
 autosuggestion.enable = true;
 syntaxHighlighting.enable = true;
 };
+
 
 
 programs.starship = {
