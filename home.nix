@@ -44,8 +44,10 @@ brightnessctl
 ];
 
 home.sessionPath = [
-  "$HOME/.local/bin"
+"$HOME/.nix-profile/bin"
+"$HOME/.local/bin"
 ];
+
 
 
 # ----------------------------
