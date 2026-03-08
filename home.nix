@@ -60,6 +60,7 @@ autosuggestion.enable = true;
 syntaxHighlighting.enable = true;
 initExtra = ''
   source "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+  export PATH="$HOME/.local/bin:$HOME/.nix-profile/bin:$PATH"
 '';  
 };
 
