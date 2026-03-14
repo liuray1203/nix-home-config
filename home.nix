@@ -27,6 +27,7 @@ fzf
 zoxide
 ranger
 thefuck
+superfile
 #nerd-fonts字體
 (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
 
