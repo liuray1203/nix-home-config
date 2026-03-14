@@ -26,6 +26,7 @@ fd
 fzf
 zoxide
 ranger
+thefuck
 #nerd-fonts字體
 (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
 
@@ -65,6 +66,7 @@ programs.zsh = {
   initExtra = ''
     source "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
     export PATH="$HOME/.local/bin:$HOME/.nix-profile/bin:$PATH"
+    eval $(thefuck --alias)
   '';
 };
 
