@@ -18,12 +18,14 @@ unzip
 zip
 rsync
 tree
-htop
+bat
 btop
 fastfetch
 ripgrep
 fd
 fzf
+zoxide
+ranger
 #nerd-fonts字體
 (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
 
