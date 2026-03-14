@@ -50,22 +50,23 @@ home.sessionPath = [
 "$HOME/.local/bin"
 ];
 
-
-
-# ----------------------------
-# Shell 設定
-# ----------------------------
-programs.zsh = {
-enable = true;
-enableCompletion = true;
-autosuggestion.enable = true;
-syntaxHighlighting.enable = true;
-initExtra = ''
-  source "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
-  export PATH="$HOME/.local/bin:$HOME/.nix-profile/bin:$PATH"
-'';  
+# zoxide 設定
+programs.zoxide = {
+  enable = true;
+  enableZshIntegration = true;  # 預設 true，可省略
 };
 
+# Shell 設定（統一寫在一個 programs.zsh 區塊）
+programs.zsh = {
+  enable = true;
+  enableCompletion = true;
+  autosuggestion.enable = true;
+  syntaxHighlighting.enable = true;
+  initExtra = ''
+    source "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+    export PATH="$HOME/.local/bin:$HOME/.nix-profile/bin:$PATH"
+  '';
+};
 
 
 programs.starship = {
