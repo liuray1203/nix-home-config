@@ -25,9 +25,8 @@ ripgrep
 fd
 fzf
 zoxide
-ranger
 thefuck
-superfile
+yazi
 #nerd-fonts字體
 (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
 
